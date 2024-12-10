@@ -199,7 +199,7 @@ const Aws = () => {
         <Row className="catalog">
           <Col md={8} className="diagram-image">
             <div className="image-wrapper">
-              <img src={isDark ? TemplateDark : TemplateDark} alt="Designing AWS Diagrams with Kanvas" className="AWS-image" />
+              <img src={TemplateDark} alt="Designing AWS Diagrams with Kanvas" className="AWS-image" />
             </div>
           </Col>
           <Col md={4} className="diagram-detail">
