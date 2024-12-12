@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { Container, Row, Col } from "../../reusecore/Layout";
 import { useStyledDarkMode } from "../../theme/app/useStyledDarkMode";
-import TemplateWhite from "../../assets/images/AWS-Diagram/templates.svg"
-import TemplateDark from "../../assets/images/AWS-Diagram/templates-dark.svg"
+import TemplateWhite from "../../assets/images/AWS-Diagram/templates.svg";
+import TemplateDark from "../../assets/images/AWS-Diagram/templates-dark.svg";
 import RelatedPicks from "../../components/RelatedPicks";
 import ConfigGIF from "./images/config.gif";
 import DeployGIF from "./images/deploy.gif";
