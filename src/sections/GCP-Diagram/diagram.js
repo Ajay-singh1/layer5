@@ -3,10 +3,12 @@ import styled from "styled-components";
 import { Container, Row, Col } from "../../reusecore/Layout";
 // import GCPIconsDark from "./images/gcp-icons-dark.svg";
 import GCPCatalogDark from "./images/gcp-catalog-dark.svg";
+import GCPCatalogLight from "./images/gcp-catalog-dark.svg";
 import RelatedPicks from "../../components/RelatedPicks";
 // import DeployGIF from "./images/gcp-deploy.gif";
 import DragNDropGIF from "./images/gcp-drag-drop.gif";
 import IconsLibraryGIF from "./images/gcp-icon-library.gif";
+import { useStyledDarkMode } from "../../theme/app/useStyledDarkMode";
 import { Link } from "gatsby";
 
 const DiagramWrapper = styled.div`
@@ -129,37 +131,11 @@ const DiagramWrapper = styled.div`
 
 const Gcp = () => {
 
-
+  const { isDark } = useStyledDarkMode();
   return (
     <DiagramWrapper>
       <Container className="diagram-container">
 
-        {/* <Row className="catalog">
-          <Col md={8} className="diagram-image">
-            <div className="image-wrapper">
-              <img src={GCPIconsDark} alt="GCP Diagrams for anything" className="GCP-image" />
-            </div>
-          </Col>
-          <Col md={4} className="diagram-detail">
-            <h2 className="heading">Diagram + Config = Awesome!</h2>
-            <p className="caption">
-              Stop wrestling with code templates! Our visual configuration interface gives you the precision of code with the ease of a diagram.
-            </p>
-          </Col>
-        </Row> */}
-        {/* <Row className="catalog">
-          <Col md={4} className="diagram-detail">
-            <h2 className="heading">Deploy with No Code GCP</h2>
-            <p className="caption">
-              Our visual GCP interface enables anyone to deploy production-grade software with no code. Whether you're new to GCP and are looking for the best way to learn or a seasoned pro, Kanvas has all the features you need to be successful in deploying and configuring your software, all with no code.
-            </p>
-          </Col>
-          <Col md={8} className="diagram-image">
-            <div className="image-wrapper">
-              <img src={DeployGIF} alt="GCP Diagrams for anything" className="GCP-image" />
-            </div>
-          </Col>
-        </Row> */}
         <Row className="catalog">
           <Col md={8} className="diagram-image">
             <div className="image-wrapper">
@@ -190,7 +166,7 @@ const Gcp = () => {
         <Row className="catalog">
           <Col md={8} className="diagram-image">
             <div className="image-wrapper">
-              <img src={GCPCatalogDark} alt="Designing GCP Diagrams with Kanvas" className="GCP-image" />
+              <img src={isDark ? GCPCatalogDark : GCPCatalogLight} alt="Designing GCP Diagrams with Kanvas" className="GCP-image" />
             </div>
           </Col>
           <Col md={4} className="diagram-detail">
