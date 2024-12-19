@@ -1,7 +1,6 @@
 import React from "react";
 import FeatureHero from "../SolutionHero";
 import kubernetes_svg from "./images/kubernetes.svg";
-import kubernetes_light_svg from "./images/kubernetes-light.svg";
 import config_svg from "./images/config.svg";
 import cluster_svg from "./images/cluster.png";
 import collaborate_svg from "./images/collaborate.svg";
@@ -10,15 +9,13 @@ import FeatureUseCard from "../../components/FeatureUseCard";
 import MultiClusterWrapper from "./deploy.style";
 import Feature from "./features";
 import Reviews from "../Pricing/review-slider";
-import { useStyledDarkMode } from "../../theme/app/useStyledDarkMode";
 
 const KubernetesMultiCluster = () => {
-  const { isDark } = useStyledDarkMode();
   let data = {
     heading: "Developer-defined Infrastructure",
     sub_heading:
       "Cloud Native application and infrastructure management software that empowers organizations to expect more from their infrastructure.",
-    image: isDark ? kubernetes_svg : kubernetes_light_svg
+    image: kubernetes_svg
   };
 
   let card_data = [
