@@ -3,7 +3,7 @@ import FeatureHero from "../FeatureHero";
 import Reviews from "../Pricing/review-slider";
 import Diagram from "./diagram";
 import KubernetesDark from "./images/kubernetes.svg";
-//import KubernetesLight from "./images/kubernetes-light.svg";
+import KubernetesLight from "./images/kubernetes-light.svg";
 import { useStyledDarkMode } from "../../theme/app/useStyledDarkMode";
 
 const KubernetesDiagramPage = () => {
