@@ -15,7 +15,7 @@ import Only_wagent_dark from "../../assets/images/kanvas/catalog-card-images/onl
 import Node_agent from "../../assets/images/kanvas/catalog-card-images/node-agent.svg";
 import Node_agent_dark from "../../assets/images/kanvas/catalog-card-images/node-agent-dark.svg";
 import Single_tenant from "../../assets/images/kanvas/catalog-card-images/single-tenant.svg";
-import Single_tenant_dark from "../../assets/images/kanvas/catalog-card-images/single-tenant.svg";
+import Single_tenant_dark from "../../assets/images/kanvas/catalog-card-images/single-tenant-dark.svg";
 import Pre_provison from "../../assets/images/kanvas/catalog-card-images/pre-provision.svg";
 import Pre_provison_dark from "../../assets/images/kanvas/catalog-card-images/pre-provision-dark.svg";
 import Circuit_breaker from "../../assets/images/kanvas/catalog-card-images/circuit-breaker.svg";
