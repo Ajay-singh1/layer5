@@ -503,7 +503,7 @@ const Catalog = () => {
                   <img src={isDark ? Only_wagent_dark : Only_wagent} />
                 </div>
                 <div className="slide seven">
-                  <img src={isDark? Node_agent_dark : Node_agent} />
+                  <img src={isDark  ? Node_agent_dark : Node_agent} />
                 </div>
                 <div className="slide eight">
                   <img src={isDark ? Single_tenant_dark : Single_tenant} />

@@ -271,7 +271,7 @@ const CatalogWrapper = styled.div`
 `;
 
 const Catalog = () => {
-  const { isdark } = useStyledDarkMode();
+  const { isDark } = useStyledDarkMode();
   return (
     <CatalogWrapper>
       <a href="https://meshery.io/catalog">
